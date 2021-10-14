@@ -1,8 +1,8 @@
 {
-  "name": "perf-utils",
+  "name": "perf-utils-js",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "repository": "https://github.com/mrampazz/perf-utils.git",
+  "repository": "https://github.com/mrampazz/perf-utils-js.git",
   "author": "Marco <mrampazz@gmail.com>",
   "license": "MIT",
   "scripts": {
