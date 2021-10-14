@@ -1,0 +1,29 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone repository
+        uses: actions/checkout@v2
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - name: fetch all
+        run: git fetch --prune --unshallow
+      - name: install npm dependecies
+        run: yarn ci
+      - name: run build 
+        run: yar build
+      - name: tests
+        run: yarn test
+        env:   
+          CI: true
+          DISPLAY: 99.0
+      - name: Coveralls
+        uses: coverallsapp/github-action@1.1.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+     
