@@ -1,4 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/mrampazz/perf-utils/badge.svg?branch=main&t=qbBRxr)](https://coveralls.io/github/mrampazz/perf-utils?branch=main)
+![example workflow](https://github.com/mrampazz/perf-utils/actions/workflows/main.yml/badge.svg)
 # perf-utils
 
 Few functions to measure performance and other useful stuff in a node.js app
