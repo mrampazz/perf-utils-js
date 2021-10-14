@@ -1,0 +1,10 @@
+language: nodenode_js
+node_js:
+  - 'node'
+
+install:
+  - yarn ci
+  - yarn build
+
+script:
+  - yarn test
