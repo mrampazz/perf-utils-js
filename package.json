@@ -1,10 +1,17 @@
 {
   "name": "perf-utils-js",
-  "version": "1.0.0",
+  "description": "Measure performance in a node.js app",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "repository": "https://github.com/mrampazz/perf-utils-js.git",
   "author": "Marco <mrampazz@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "node",
+    "logging",
+    "performance",
+    "monitoring"
+  ],
   "scripts": {
     "ci": "rm -rf node_modules && yarn install --frozen-lockfile",
     "build": "tsc --project .",
