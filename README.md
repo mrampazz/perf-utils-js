@@ -1,4 +1,3 @@
-[![Coverage Status](https://coveralls.io/repos/github/mrampazz/perf-utils/badge.svg?branch=main&t=qbBRxr)](https://coveralls.io/github/mrampazz/perf-utils?branch=main)
 ![Build Status](https://github.com/mrampazz/perf-utils/actions/workflows/main.yml/badge.svg)
 # perf-utils
 
